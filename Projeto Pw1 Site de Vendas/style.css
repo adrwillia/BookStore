@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 10vh;
+    
+}
+
+body{
+    background-color: rgb(141, 115, 67);
+     justify-content: center;
+     align-items: center;
+     height: 3300px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 7px 2%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    padding: 20px 0;
+    
+    
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    height: 130%;
+    cursor: pointer;
+}
+
+.pesquisa{
+    width: 50%; 
+    text-align: right;
+}
+
+.menu a{
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.search-box{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    top: flex;
+    background-color: white;
+    justify-content: center;
+    align-self: baseline;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+#lupa{    
+    width: 20px;
+    height: 20px;
+    color: green;
+}
+
+.search-txt{
+    height: 25px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+}
+#b{
+    height: 20px;
+
+}
+.men{
+    display: inline;
+
+}
+#carrinho{
+    width: 50px;
+    height: 50px;
+    padding: 5px 8px 5px 5px;
+    margin-right: 30px;
+    
+}
+#a{
+    display: flex;
+    width: 140px;
+    height: 140px;
+    align-self: center;
+}
+#conta{
+    display: inline;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.categorias {
+    background-color: rgb(11, 11, 119);
+    display: flex;
+    position: absolute;
+    left: 13%;
+    top: 60%;
+    transform: (50%, 100%);
+    width: 1350px;
+    border-radius: 40px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-self: center;
+    text-transform: uppercase;
+
+}
+.categorias a{
+    color: yellowgreen;
+
+}
+
+.conteudo{
+    display: flex;
+    background-color: rgb(20, 95, 141);
+    position: absolute;
+    top: 75%;
+    left: 14%;
+    width: 1300px;
+    height: 2000px;
+    padding: 70px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 50px 50px 50px;
+}
+
+.item{
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    width: 320px;
+    height: 500px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    box-shadow: 12px 12px;
+    border-radius: 10px;
+}
+
+.item img{
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+
+}
+
+.item a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+.item p{
+    font-size: 25px;
+    color: rgb(131, 98, 36);
+    
+}
+
+.slides{
+    background-color: pink;
+    display: flex;
+    width: 1295px;
+    height: 300px;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+
+.slide img{
+    width: 1295px;
+    height: 300px;
+}
+
+
+.slider{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 1295px;
+
+}
+
+.slide{
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    width: 1295px;
+    height: 300px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+
+}
+
+#slide1{background-color: chartreuse;}
+#slide2{background-color: aqua;}
+#slide3{background-color: yellow;}
+#slide4{background-color: lightsalmon;}
+#slide5{background-color: red;}
+#slide6{background-color: blue;}
+
+
+
+.slider a{
+
+    background-color: grey;
+    border-style: solid ;
+    border-color: grey;
+    border-radius: 25px;
+    border-width: 10px;
+    color: grey;
+    height: 40px;
+}
+
+.a{
+    background-color: rgba(77, 64, 64, 0.527);
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(11, 11, 119);
+    width: 2005px; 
+    height: 250px;
+    position: absolute;
+    top: 292%;
+    left: 0%;
+    margin: 0px 10px 0px 10px;
+
+}
+
+.footer h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: unset;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.footer img{
+    margin: 10px;
+}
+
+
+.footer ul{
+    color: white;
+}
+
+.grid-3{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+
+}
+
+.grid-4{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+.pagamento{
+    display: flex;
+    position: absolute;
+    top: 325%;
+    left: 0%;
+    background-color: rgb(11, 11, 119);
+    width: 2005px;
+    height: 170px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.pag img{
+    width: 170px;
+    height: 120px;
+}
+
+
+
+.janela-modal{
+    width: 100vw;
+    height: 150vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.modal{
+    width: 60%;
+    min-width: 450px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.555);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50% ;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.janela-modal.abrir{
+    display: flex;
+
+}
+
+
+@keyframes abrirmodal{
+    from{
+         opacity: 0;
+         transform: translate3d(0, -20px, -5px);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.abrir .modal{
+    animation: abrirmodal 0.20s;
+}

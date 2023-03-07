@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça o seu Cadastro</title>
+    <link rel="stylesheet" href="usuario.css">
+
+</head>
+<body>
+    
+
+    <div class="box">  
+        <form action="">
+                <fieldset>
+                    <legend><b>Cadastrar-se</b></legend>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome</label>
+                        <br><br>
+                    </div> 
+                    <div class="inputbox">
+                        <input type="email" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">Email</label>
+                        <br><br>
+                    </div> 
+                    <div class="inputbox">
+                        <input type="password" name="password" id="password" class="inputUser" required>
+                        <label for="password" class="labelInput">Senha</label>
+                        <br><br>
+                    </div> 
+
+                    <div class="inputbox">
+                        <label for="data_de_nascimento"><b>Data De Nascimento</b></label> 
+                        <input type="date" name="data_de_nascimento" id="data_de_nascimento" class="inputUser" required>         
+                        <br><br><br>
+                    </div>          
+
+                    <div class="inputbox">
+                        
+                        <label for="html">Masculino</label>
+                        <input type="radio" id="html">
+                        <label for="html">Feminino</label>
+                        <input type="radio" id="html">
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="inputbox">
+                        <input type="text" name="nome da rua" id="nome da rua" class="inputUser" required>
+                        <label for="nome da rua" class="labelInput">CPF</label>
+                        <br><br>
+                    </div> 
+
+                    <div class="inputbox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
+                        <br><br>
+                    </div> 
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+        </form>
+    </div>
+
+
+</body>
+</html>
